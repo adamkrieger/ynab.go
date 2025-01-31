@@ -57,6 +57,22 @@ func NewClient(accessToken string) ClientServicer {
 	return c
 }
 
+func NewClientWithHTTPClient(accessToken string, httpClient *http.Client) ClientServicer {
+	c := &client{
+		accessToken: accessToken,
+		client:      httpClient,
+	}
+
+	c.user = user.NewService(c)
+	c.budget = budget.NewService(c)
+	c.account = account.NewService(c)
+	c.category = category.NewService(c)
+	c.payee = payee.NewService(c)
+	c.month = month.NewService(c)
+	c.transaction = transaction.NewService(c)
+	return c
+}
+
 // client API
 type client struct {
 	sync.Mutex
