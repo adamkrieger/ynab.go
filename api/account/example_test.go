@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/brunomvsouza/ynab.go"
-	"github.com/brunomvsouza/ynab.go/api"
+	"github.com/adamkrieger/ynab.go"
+	"github.com/adamkrieger/ynab.go/api"
 )
 
 func ExampleService_GetAccount() {

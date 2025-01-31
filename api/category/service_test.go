@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/jarcoal/httpmock.v1"
 
-	"github.com/brunomvsouza/ynab.go"
-	"github.com/brunomvsouza/ynab.go/api"
-	"github.com/brunomvsouza/ynab.go/api/category"
+	"github.com/adamkrieger/ynab.go"
+	"github.com/adamkrieger/ynab.go/api"
+	"github.com/adamkrieger/ynab.go/api/category"
 )
 
 func TestService_GetCategories(t *testing.T) {

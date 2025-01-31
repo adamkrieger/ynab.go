@@ -8,12 +8,12 @@ package budget // import "github.com/brunomvsouza/ynab.go/api/budget"
 import (
 	"time"
 
-	"github.com/brunomvsouza/ynab.go/api"
-	"github.com/brunomvsouza/ynab.go/api/account"
-	"github.com/brunomvsouza/ynab.go/api/category"
-	"github.com/brunomvsouza/ynab.go/api/month"
-	"github.com/brunomvsouza/ynab.go/api/payee"
-	"github.com/brunomvsouza/ynab.go/api/transaction"
+	"github.com/adamkrieger/ynab.go/api"
+	"github.com/adamkrieger/ynab.go/api/account"
+	"github.com/adamkrieger/ynab.go/api/category"
+	"github.com/adamkrieger/ynab.go/api/month"
+	"github.com/adamkrieger/ynab.go/api/payee"
+	"github.com/adamkrieger/ynab.go/api/transaction"
 )
 
 // Budget represents a budget

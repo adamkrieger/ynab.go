@@ -1,4 +1,4 @@
-module github.com/brunomvsouza/ynab.go
+module github.com/adamkrieger/ynab.go
 
 go 1.19
 

@@ -7,7 +7,7 @@ This is an UNOFFICIAL Go client for the YNAB API. It covers 100% of the resource
 ## Installation
 
 ```
-go get github.com/brunomvsouza/ynab.go
+go get github.com/adamkrieger/ynab.go
 ```
 
 ## Usage

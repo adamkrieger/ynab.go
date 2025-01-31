@@ -3,7 +3,8 @@
 // found in the LICENSE file.
 
 // Package ynab implements the client API
-package ynab // import "github.com/brunomvsouza/ynab.go"
+// TODO - Resolve copyright fork issues later
+package ynab // import "github.com/adamkrieger/ynab.go"
 
 import (
 	"bytes"
