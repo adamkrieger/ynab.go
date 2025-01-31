@@ -20,7 +20,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/brunomvsouza/ynab.go"
+	"github.com/adamkrieger/ynab.go"
 )
 
 const accessToken = "bf0cbb14b4330-not-real-3de12e66a389eaafe2"
